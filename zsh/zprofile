@@ -29,11 +29,6 @@ export GPG_TTY=$(tty)
 
 # Functions
 
-## Reset Bartender trial
-function bartender-reset() {
-  defaults write com.surteesstudios.Bartender trialStart4 "$(date +"%Y-%m-%d %l:%M:%S +0000")"
-}
-
 ## GHUB command
 function ghub() {
 	open "https://ghub.io/$1"

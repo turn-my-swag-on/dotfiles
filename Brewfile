@@ -32,19 +32,14 @@ brew "cmatrix"
 brew "cowsay"
 brew "fortune"
 brew "rogue"
+brew "trash"
 
 # Applications
 ## Cask
 cask "alacritty"
-cask "iterm2-nightly"
 cask "monitorcontrol"
-cask "multimc"
 cask "mactex"
-cask "bartender"
 ## Mas
-mas "Xcode", id: 497799835
-mas "Pixelmator Pro", id: 1289583905
-
 # Fonts
 ## Monospace
 cask "font-fira-code-nerd-font"

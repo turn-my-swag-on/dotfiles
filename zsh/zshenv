@@ -19,3 +19,4 @@ export EDITOR
 
 # Machine-specific
 source $HOME/.zshenv.local
+. "$HOME/.cargo/env"
